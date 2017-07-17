@@ -17,7 +17,7 @@
 @property (nonatomic, assign) NSInteger labelCount;
 /// label 之间的距离
 @property (nonatomic, assign) CGFloat labelDistance;
-/// 密码输入文本框
+/// 输入文本框
 @property (nonatomic, strong) UITextField *codeTextField;
 
 @end

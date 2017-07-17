@@ -14,9 +14,9 @@ typedef void(^NNCodeDidChangeBlock)(NSString *codeString);
 - (instancetype)initWithFrame:(CGRect)frame andLabelCount:(NSInteger)labelCount andLabelDistance:(CGFloat)labelDistance;
 /// 回调的 block , 获取输入的数字
 @property (nonatomic, copy) NNCodeDidChangeBlock codeBlock;
-/// 默认颜色 blackColor
+/// 默认颜色 不设置的话是黑色
 @property (nonatomic, strong) UIColor *defaultColor;
-/// 改变后的颜色 redColor
+/// 改变后的颜色 不设置的话是红色
 @property (nonatomic, strong) UIColor *changedColor;
 
 @end
