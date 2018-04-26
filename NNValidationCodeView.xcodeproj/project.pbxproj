@@ -441,9 +441,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = NNValidationCodeView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = LiuZhongNing.NNValidationCodeView;
+				PRODUCT_BUNDLE_IDENTIFIER = liupengkun.NNValidationCodeView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -452,9 +453,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = NNValidationCodeView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = LiuZhongNing.NNValidationCodeView;
+				PRODUCT_BUNDLE_IDENTIFIER = liupengkun.NNValidationCodeView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -524,6 +526,7 @@
 				00F668AA1F1C8F79003F55F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		00F668AB1F1C8F79003F55F2 /* Build configuration list for PBXNativeTarget "NNValidationCodeViewTests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +535,7 @@
 				00F668AD1F1C8F79003F55F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		00F668AE1F1C8F79003F55F2 /* Build configuration list for PBXNativeTarget "NNValidationCodeViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -540,6 +544,7 @@
 				00F668B01F1C8F79003F55F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

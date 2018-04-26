@@ -18,7 +18,7 @@
 /// label 之间的距离
 @property (nonatomic, assign) CGFloat labelDistance;
 /// 输入文本框
-@property (nonatomic, strong) UITextField *codeTextField;
+@property (nonatomic, strong) NNTextField *codeTextField;
 
 @end
 
@@ -93,9 +93,9 @@
 }
 
 #pragma mark - 懒加载
-- (UITextField *)codeTextField {
+- (NNTextField *)codeTextField {
     if (!_codeTextField) {
-        _codeTextField = [[UITextField alloc] initWithFrame:CGRectMake(0, 0, self.frame.size.width, NNCodeViewHeight)];
+        _codeTextField = [[NNTextField alloc] initWithFrame:CGRectMake(0, 0, self.frame.size.width, NNCodeViewHeight)];
         _codeTextField.backgroundColor = [UIColor clearColor];
         _codeTextField.textColor = [UIColor clearColor];
         _codeTextField.tintColor = [UIColor clearColor];
@@ -115,6 +115,20 @@
         _labelArr = [NSMutableArray array];
     }
     return _labelArr;
+}
+
+@end
+
+
+@implementation NNTextField
+
+/// 重写 UITextFiled 子类, 解决长按复制粘贴的问题
+- (BOOL)canPerformAction:(SEL)action withSender:(id)sender {
+    UIMenuController *menuController = [UIMenuController sharedMenuController];
+    if (menuController) {
+        [UIMenuController sharedMenuController].menuVisible = NO;
+    }
+    return NO;
 }
 
 @end

@@ -20,3 +20,8 @@ typedef void(^NNCodeDidChangeBlock)(NSString *codeString);
 @property (nonatomic, strong) UIColor *changedColor;
 
 @end
+
+@interface NNTextField : UITextField
+
+@end
+
