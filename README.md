@@ -20,3 +20,6 @@
 ![演示图2](https://github.com/liuzhongning/NNValidationCodeView/blob/master/DemoFigure/222.gif)
 
 
+### License
+
+This repositorie is released under the under [MIT License](https://github.com/liuzhongning/NNValidationCodeView/blob/master/LICENSE)
